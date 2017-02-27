@@ -13,6 +13,7 @@
 		B0A591AA1E63B38B00379A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A591A81E63B38B00379A24 /* Main.storyboard */; };
 		B0A591AC1E63B38B00379A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A591AB1E63B38B00379A24 /* Assets.xcassets */; };
 		B0A591AF1E63B38B00379A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A591AD1E63B38B00379A24 /* LaunchScreen.storyboard */; };
+		B0A591B71E63B8C900379A24 /* tutorial.json in Resources */ = {isa = PBXBuildFile; fileRef = B0A591B61E63B8C900379A24 /* tutorial.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B0A591AB1E63B38B00379A24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0A591AE1E63B38B00379A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A591B01E63B38B00379A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A591B61E63B8C900379A24 /* tutorial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		B0A591A31E63B38B00379A24 /* Lottie_swipe_animation */ = {
 			isa = PBXGroup;
 			children = (
+				B0A591B61E63B8C900379A24 /* tutorial.json */,
 				B0A591A41E63B38B00379A24 /* AppDelegate.swift */,
 				B0A591A61E63B38B00379A24 /* ViewController.swift */,
 				B0A591A81E63B38B00379A24 /* Main.storyboard */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A591AF1E63B38B00379A24 /* LaunchScreen.storyboard in Resources */,
+				B0A591B71E63B8C900379A24 /* tutorial.json in Resources */,
 				B0A591AC1E63B38B00379A24 /* Assets.xcassets in Resources */,
 				B0A591AA1E63B38B00379A24 /* Main.storyboard in Resources */,
 			);
@@ -379,6 +383,7 @@
 				B0A591B51E63B38B00379A24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
